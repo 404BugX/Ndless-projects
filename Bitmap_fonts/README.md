@@ -25,4 +25,4 @@ Supports `\n` for line breaks. ASCII 32–126.
 
 ____
 
-**Disclaimer : ** these fonts are made using Claude AI, but work perfectly fine :)
+**Disclaimer :** these fonts are made using Claude AI, but work perfectly fine :)
