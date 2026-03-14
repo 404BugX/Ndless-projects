@@ -1,6 +1,8 @@
 # bitmap fonts
 
-Header-only bitmap fonts. Requires SDL 1.2 (-lSDL)
+If you want to test them, just use Fonts_demo.tns!
+
+Header-only bitmap fonts. **Requires SDL 1.2 (-lSDL)**
 
 | File | Size | Function |
 |---|---|---|
