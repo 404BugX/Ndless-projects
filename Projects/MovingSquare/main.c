@@ -25,14 +25,12 @@ int main(void) {
         SDL_FillRect(screen, &(SDL_Rect){x, y, size, size}, Square);
         SDL_Flip(screen);
 
-        if (isKeyPressed(KEY_NSPIRE_ESC)) break;
+        if (isKeyPressed(KEY_NSPIRE_ESC)) return 0;
         if ((isKeyPressed(KEY_NSPIRE_UP)) && !(y < 1)) y--; 
         if ((isKeyPressed(KEY_NSPIRE_DOWN)) && !(y > 239 - size))  y++;
         if ((isKeyPressed(KEY_NSPIRE_LEFT)) && !(x < 1))  x--;
         if ((isKeyPressed(KEY_NSPIRE_RIGHT)) && !(x > 319 - size)) x++;
 
     }
-    while (!any_key_pressed()) {}
-
     return 0;
 }
