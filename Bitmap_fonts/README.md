@@ -22,3 +22,7 @@ draw_text3(screen, "x:10 y:20", x, y, white, &font_3x5);
 ```
 
 Supports `\n` for line breaks. ASCII 32–126.
+
+____
+
+**Disclaimer : **these fonts are made using Claude AI, but work perfectly fine :)
