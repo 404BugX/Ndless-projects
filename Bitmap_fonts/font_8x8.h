@@ -1,13 +1,6 @@
 #ifndef FONT_8X8_H
 #define FONT_8X8_H
 
-// ============================================================
-// font_8x8.h — Bitmap font 8x8 pixels
-// Style : Regular (plus lisible, inspiré CP437/ZX Spectrum)
-// Chars : ASCII 32–126
-// Usage : draw_text(screen, "Hello", x, y, color, &font_8x8);
-// ============================================================
-
 typedef struct {
     int w;
     int h;
