@@ -1,13 +1,6 @@
 #ifndef FONT_5X7_H
 #define FONT_5X7_H
 
-// ============================================================
-// font_5x7.h — Bitmap font 5x7 pixels
-// Style : Regular
-// Chars : ASCII 32–126 (espace, chiffres, lettres, symboles)
-// Usage : draw_text(screen, "Hello", x, y, color, &font_5x7);
-// ============================================================
-
 typedef struct {
     int w;
     int h;
@@ -211,14 +204,6 @@ static const BitmapFont font_5x7 = {
     }
 };
 
-// ============================================================
-// draw_char — Dessine un caractère à (x, y)
-// screen  : SDL_Surface* de l'écran
-// c       : caractère ASCII
-// x, y    : position en pixels
-// color   : Uint32 SDL_MapRGB(...)
-// font    : pointeur vers BitmapFont
-// ============================================================
 static inline void draw_char(SDL_Surface *screen, char c,
                                int x, int y, Uint32 color,
                                const BitmapFont *font) {
@@ -235,9 +220,6 @@ static inline void draw_char(SDL_Surface *screen, char c,
     }
 }
 
-// ============================================================
-// draw_text — Dessine une string à (x, y)
-// ============================================================
 static inline void draw_text(SDL_Surface *screen, const char *str,
                                int x, int y, Uint32 color,
                                const BitmapFont *font) {
