@@ -1,13 +1,6 @@
 #ifndef FONT_3X5_H
 #define FONT_3X5_H
 
-// ============================================================
-// font_3x5.h — Bitmap font 3x5 pixels
-// Style : Tiny (pour HUD, debug, espaces limités)
-// Chars : ASCII 32–126
-// Usage : draw_text(screen, "Hello", x, y, color, &font_3x5);
-// ============================================================
-
 typedef struct {
     int w;
     int h;
