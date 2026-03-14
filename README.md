@@ -7,7 +7,7 @@ Currently learning, don't expect something crazy X)
 
 
 
-I might use those libs :
+I might use these libs :
 * libndls
 * libc
 * zlib
