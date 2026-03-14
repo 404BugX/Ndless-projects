@@ -18,4 +18,7 @@ I might use these libs :
 ________
 
 I ask claude AI to generate a dev guide. I did not check if the content was true, use at your own risk. And, it is in French ! 
-Link : https://github.com/404BugX/Ndless-projects/blob/main/Ndless_DevGuide_CX-CAS-II-T_FRENCH__by-ClaudeAI.pdf
+Links : 
+
+Markdown : https://github.com/404BugX/Ndless-projects/blob/main/Ndless_DevGuide_CX-CAS-II-T_FRENCH__by-ClaudeAI.md
+PDF : https://github.com/404BugX/Ndless-projects/blob/main/Ndless_DevGuide_CX-CAS-II-T_FRENCH__by-ClaudeAI.pdf
